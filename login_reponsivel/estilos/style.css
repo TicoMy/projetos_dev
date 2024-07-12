@@ -4,7 +4,7 @@
     --cor1:#49a09d;
     --cor2:white;
     --cor3:black;
-    --cor4:#5f2c82;
+    --cor4:#343180;
 }
 
 *{
@@ -36,7 +36,7 @@ section#login{
     left: 50%;
     transform: translate(-50%,-50%);
       background-color: white;
-    width: 250px;
+    width: 260px;
     height:500px;
     border-radius: 10px;
     overflow: hidden;   
@@ -54,4 +54,13 @@ section#login > div#img{
 
 div#formulario{
     padding: 10px;
+}
+
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+div#formulario > p{
+    font-size: 0.9em;
 }
