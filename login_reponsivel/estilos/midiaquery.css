@@ -15,6 +15,8 @@
         float: left;
         width: 30%;
         height: 100%;
+         border-radius: 0px 20% 10% 0px;
+
     }
 
     section#login > div#formulario{
@@ -49,6 +51,7 @@
         float: right;
         width: 50%;
         height: 100%;
+        border-radius: 20% 0px 0px 10%;
     }
     section#login > div#formulario{
         float: left;
