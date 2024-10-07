@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: kanit;
+    src: url('../fonts/Kanit-Regular.ttf');
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #101010;
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+header h1{
+    padding: 10px;
+}
+ul{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding-right: 5px;
+}
+ li, a{
+    padding-left: 5px;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    transition: all 0.25s ease-in-out;
+    
+}
+
+a:hover{
+    color: rgb(170, 170, 170);
+    font-size: 17px;
+}
+
+/* colo, url, position, repeat, attachment, size */
+section{
+    background-image: linear-gradient(to bottom, rgb(73, 122, 255), rgb(148, 237, 255));
+}
+
+section p{
+    color: white;
+    text-align: center;
+    padding: 50px;
+    border: solid 1px black;
+}
